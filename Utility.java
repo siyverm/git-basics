@@ -1,6 +1,10 @@
 public class Utility {
-    public static void main (String[] args) {
-        HelloWorld thing = new HelloWorld(null);
-        thing.print();
+    public Utility () {
+        
+    }
+    public static void print (String[] args) {
+        for (String x : args) {
+            System.out.println(x);
+        }
     }
 }
