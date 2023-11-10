@@ -5,7 +5,5 @@ class HelloWorld {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.next();
         Utility.print(s);
-        
-        
     }
 }
