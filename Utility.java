@@ -1,10 +1,11 @@
 public class Utility {
-    public Utility () {
-        
-    }
-    public static void print (String[] args) {
-        for (String x : args) {
-            System.out.println(x);
+
+    public static void print (String s) {
+        if (s.indexOf("hello") != -1){
+            System.out.println("Hello, world");
+        }
+        else {
+            System.out.println("Goodbye, world");
         }
     }
 }
