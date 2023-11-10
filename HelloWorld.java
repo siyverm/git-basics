@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 class HelloWorld {
     public static void main (String[] args) {
-        
-        Utility.print(args);
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.next();
+        Utility.print(s);
         
         
     }
