@@ -1,8 +1,9 @@
+import java.util.Scanner;
+
 class HelloWorld {
-    public HelloWorld (String[] args) {
-        
-    }
-    public void print () {
-        System.out.println("Hello, World!");
+    public static void main (String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.next();
+        Utility.print(s);
     }
 }
